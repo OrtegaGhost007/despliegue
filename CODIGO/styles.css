@@ -1,0 +1,49 @@
+body {
+    background: #e9eef3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.subtitle {
+    color: #555;
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+.description {
+    font-size: 15px;
+    color: #222;
+    margin: 15px 0;
+}
+
+.icons a {
+    margin: 0 8px;
+    color: #333;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.icons a:hover {
+    color: #0077ff;
+}
